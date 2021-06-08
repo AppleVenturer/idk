@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+    body {
+    background-color:powderblue;
+}
+h1 {
+    color: purple;
+    padding: 6px;
+}
+rotate90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Network Diagram</title>
+</head>
+<body style="background-color:powderblue;">
+
+    <div class="container text-centre">
+        <br>
+        <h1 style="font-family:verdana;">Network Diagram</h1>
+    <div>
+
+    <br>
+    <br>
+
+    <div class="container text-centre">
+
+        <img src="{{ diagram_components }}" alt="Could not generate this." >
+        <br>
+        <br>
+        <a href="{% url 'home' %}" class="rotate90">Go Back</a>
+    <div>
+
+</body>
+</html>
