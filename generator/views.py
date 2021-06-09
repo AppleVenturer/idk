@@ -57,7 +57,7 @@ def network_diagram(request):
                     message2 += part
 
     mo3 = match3.findall(message2)
-    if bool(mo1):
+    if bool(mo3):
         for i in mo3:
             # previous values to remove
             removable = f'{i[0]}-{i[1]}'
